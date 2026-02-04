@@ -21,7 +21,7 @@ def lista_filmes(request):
                 Filme.objects.create(titulo=titulo, descricao=descricao, nota=nota)
                 messages.success(request, f'Filme "{titulo}" adicionado com sucesso!')
 
-    filmes = Filme.objects.all()
+    filmes = Filme.objects.all().order_by('-nota')
     return render(request, 'filmes.html', {'filmes': filmes})
 
 

@@ -6,6 +6,6 @@ class Filme(models.Model):
     nota = models.DecimalField(max_digits=3, decimal_places=1, null=True, blank=True)
 
     def __str__(self):
-        return f"{self.titulo} - Nota: {self.nota}"
+        return self.titulo
 
 
