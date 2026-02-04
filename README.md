@@ -26,13 +26,13 @@ SQLite (banco padrão do Django)
 
 ⚙️ Como Rodar o Projeto Localmente
 1️⃣ Clonar o repositório
-git clone <URL_DO_SEU_REPOSITORIO>
+git clone https://github.com/Andre2117-maker/Lista_Filmes.git
 cd project-django
 
 2️⃣ Criar e ativar o ambiente virtual
 python -m venv venv
-venv\Scripts\activate  # no Windows
-ou 
+venv\Scripts\activate # no Windows
+ou
 source venv/bin/activate # (Linux/Mac)
 
 3️⃣ Instalar as dependências
@@ -52,23 +52,22 @@ python manage.py runserver
 project-django/
 │
 ├── app/
-│   ├── migrations/
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   └── templates/
-│       └── filmes.html
+│ ├── migrations/
+│ ├── models.py
+│ ├── views.py
+│ ├── urls.py
+│ └── templates/
+│ └── filmes.html
 │
 ├── project_django/
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
+│ ├── settings.py
+│ ├── urls.py
+│ └── wsgi.py
 │
 ├── db.sqlite3
 ├── manage.py
 ├── requirements.txt
 └── README.md
-
 
 ✨ Autor
 
